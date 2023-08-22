@@ -99,8 +99,8 @@ class AnimatedSizeAndFade extends StatelessWidget {
             ? child
             : Container(
                 key: AnimatedSizeAndFade._key,
-                width: double.infinity,
-                height: 0,
+                width: 0,
+                height: double.infinity,
               ),
         duration: fadeDuration,
         switchInCurve: fadeInCurve,
