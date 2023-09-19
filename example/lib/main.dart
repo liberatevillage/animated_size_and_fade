@@ -67,7 +67,7 @@ class _MyAppState extends State<MyApp> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 const Text("Some text above."),
-                AnimatedSizeAndFade(
+                AnimatedHeightAndFade(
                   child: toggle ? widget1 : widget2,
                   fadeDuration: const Duration(milliseconds: 300),
                   sizeDuration: const Duration(milliseconds: 600),
